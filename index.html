@@ -1,66 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-    <link href="./src/output.css" rel="stylesheet" />
-    <title>Novasports</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"
+      />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <!-- DATA AOS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <link href="./src/style/output.css" rel="stylesheet" />
+      <link rel="website icon" type="png" href="./lib/logo.png">
+      <title>Novasports</title>
   </head>
+  
   <body class="overflow-x-hidden">
-    <header
-      class="fixed top-2 z-[9999] py-2 w-full mix-blend-difference transition-transform ease-linear duration-150"
-      data-aos="fade-down"
-      data-aos-duration="1000"
-      data-aos-delay="400"
-    >
-      <div class="container">
-        <div class="flex justify-between items-center w-full">
-          <div class="flex justify-center items-center">
-            <a href="">
-              <img src="./public/logo.png" alt="logo" class="w-20 h-20" />
-            </a>
-          </div>
-
-          <div class="flex items-center gap-4">
-            <a href="#" class="text-lg font-semibold hover:text-gray-100">
-              HOME
-            </a>
-            <a href="#" class="text-lg font-semibold hover:text-gray-100">
-              GALLERY
-            </a>
-            <a href="#" class="text-lg font-semibold hover:text-gray-100">
-              TRAINING
-            </a>
-            <a href="#" class="text-lg font-semibold hover:text-gray-100">
-              PRICING
-            </a>
-            <a href="#" class="text-lg font-semibold hover:text-gray-100">
-              CONTACT
-            </a>
-          </div>
-
-          <div class="flex gap-2">
-            <a
-              href=""
-              class="px-8 py-2 border border-white rounded-2xl font-semibold hover:bg-white hover:text-black transition ease-linear duration-100"
-              >JOIN MEMBERSHIP</a
-            >
+    <header data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+        <div class="container">
+          <div class="content">
+            <div data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="300"   class="logo">
+              <img src="./lib/logo.png" alt="logo" />
+                <a href="">NOVASPORT</a>
+            </div>
+             <nav> 
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">Training</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="extra-nav">
+                <a href="##">
+                <button data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="400" class="join-membership">
+                    JOIN MEMBERSHIP
+                </button></a>
+                <button class="btn-menu" id="btn-menu">
+                    <box-icon name="menu-alt-right" class="icon"></box-icon>
+                </button>
+            </div>
+            <div class="mobile-nav"> 
+                <button class="close-mobile-nav">
+                    <box-icon name="x" class="icon"></box-icon>
+                </button>
+                <div class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Training</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                    <button>Join Membership</button>
+                </div>
+            </div>
           </div>
         </div>
-      </div>
     </header>
 
+
+
+
+
+
+
     <a href="#" class="to-top"><box-icon name='chevron-up'></box-icon></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 
     <section
       id="hero"
@@ -72,7 +109,7 @@
       <div class="container">
         <div class="flex flex-col justify-center items-center h-screen">
           <img
-            src="./public/hand.png"
+            src="./lib/hand.png"
             alt="hand"
             class="h-[65%] absolute -bottom-[5%] left-[35%] z-10"
             data-aos="fade-up"
@@ -80,7 +117,7 @@
             data-aos-delay="200"
           />
           <img
-            src="./public/ball.png"
+            src="./lib/ball.png"
             alt="ball"
             class="absolute top-[15%] left-[41%] w-[20%] z-10"
             data-aos="fade-down"
@@ -116,9 +153,58 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
-    <section class="py-16">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="py-16">
       <div class="container">
         <div class="flex flex-col justify-center items-center h-full gap-16">
           <h1
@@ -135,10 +221,10 @@
             Our
             <span class="text-white font-bold">flexible scheduling</span> means
             you can work out whenever it suits you.
-          </h1>
+          </h1> -->
 
           <!-- Stats -->
-          <div
+          <!-- <div
             class="flex items-center gap-8"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -156,10 +242,10 @@
               <h1 class="font-bold text-4xl">900+</h1>
               <p class="text-gray-100 text-lg font-semibold">Membership</p>
             </div>
-          </div>
+          </div> -->
 
           <!-- Action -->
-          <div
+          <!-- <div
             class="flex items-center gap-6"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -176,13 +262,13 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="pt-16 pb-32 overflow-hidden">
+    <!-- <section class="pt-16 pb-32 overflow-hidden">
       <div class="container">
-        <div class="flex flex-col justify-center items-center gap-16">
+        <div class="flex flex-col justify-center items-center gap-16"> -->
           <!-- Title -->
-          <div class="flex justify-between items-center w-full">
+          <!-- <div class="flex justify-between items-center w-full">
             <h1
               class="text-4xl font-bold font-bitter text-gray-100"
               data-aos="fade-right"
@@ -199,12 +285,12 @@
               data-aos-delay="200"
               >See more</a
             >
-          </div>
+          </div> -->
 
           <!-- Mentors -->
-          <div class="grid grid-cols-4 gap-4">
+          <!-- <div class="grid grid-cols-4 gap-4"> -->
             <!-- Mentor Card -->
-            <div
+            <!-- <div
               class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -212,7 +298,7 @@
             >
               <div class="relative rounded-xl flex justify-center items-center">
                 <img
-                  src="./public/mentor.jpeg"
+                  src="./lib/mentor.jpeg"
                   alt="mentor"
                   class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
                 />
@@ -230,10 +316,10 @@
                 <h1 class="text-2xl font-bold">JOHN SMITH</h1>
                 <p class="text-gray-100">Professional Mentor</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Mentor Card -->
-            <div
+            <!-- <div
               class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -241,7 +327,7 @@
             >
               <div class="relative rounded-xl flex justify-center items-center">
                 <img
-                  src="./public/mentor.jpeg"
+                  src="./lib/mentor.jpeg"
                   alt="mentor"
                   class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
                 />
@@ -259,10 +345,10 @@
                 <h1 class="text-2xl font-bold">JOHN SMITH</h1>
                 <p class="text-gray-100">Professional Mentor</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Mentor Card -->
-            <div
+            <!-- <div
               class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -270,7 +356,7 @@
             >
               <div class="relative rounded-xl flex justify-center items-center">
                 <img
-                  src="./public/mentor.jpeg"
+                  src="./lib/mentor.jpeg"
                   alt="mentor"
                   class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
                 />
@@ -288,10 +374,10 @@
                 <h1 class="text-2xl font-bold">JOHN SMITH</h1>
                 <p class="text-gray-100">Professional Mentor</p>
               </div>
-            </div>
+            </div> -->
 
             <!-- Mentor Card -->
-            <div
+            <!-- <div
               class="flex flex-col gap-2 border border-gray-300 rounded-xl group"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -299,7 +385,7 @@
             >
               <div class="relative rounded-xl flex justify-center items-center">
                 <img
-                  src="./public/mentor.jpeg"
+                  src="./lib/mentor.jpeg"
                   alt="mentor"
                   class="rounded-xl group-hover:brightness-75 transition ease-linear duration-100"
                 />
@@ -321,9 +407,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="py-16 relative" id="membership">
+    <!-- <section class="py-16 relative" id="membership">
       <div class="container">
         <div class="flex item-center h-[50vh]">
           <div class="flex flex-col justify-center gap-6 w-1/2 z-20">
@@ -333,7 +419,7 @@
               data-aos-delay="200"
             >
               <img
-                src="./public/quotation.png"
+                src="./lib/quotation.png"
                 alt="quotation"
                 class="w-16 h-16"
               />
@@ -359,7 +445,7 @@
 
           <div class="flex w-1/2">
             <img
-              src="./public/membership.png"
+              src="./lib/membership.png"
               alt="membership"
               class="w-[70%] absolute bottom-0 -right-[5%] z-20"
               data-aos="fade-up"
@@ -369,9 +455,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="py-32">
+    <!-- <section class="py-32">
       <div class="container">
         <div class="flex flex-col items-center justify-center gap-6">
           <h1
@@ -391,7 +477,7 @@
               data-aos-delay="400"
             >
               <div class="flex justify-between items-center w-full">
-                <img src="./public/logo.png" alt="logo" class="w-20 h-20" />
+                <img src="./lib/logo.png" alt="logo" class="w-20 h-20" />
                 <p class="text-white text-2xl">$20/month</p>
               </div>
 
@@ -465,16 +551,16 @@
                   CHOOSE PLAN
                 </button>
               </div>
-            </div>
+            </div> -->
 
-            <div
+            <!-- <div
               class="flex flex-col gap-2 w-1/2 border border-gray-100 rounded-xl p-8"
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-delay="400"
             >
               <div class="flex justify-between items-center w-full">
-                <img src="./public/logo.png" alt="logo" class="w-20 h-20" />
+                <img src="./lib/logo.png" alt="logo" class="w-20 h-20" />
                 <p class="text-white text-2xl">$25/month</p>
               </div>
 
@@ -579,9 +665,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="py-16 overflow-hidden">
+    <!-- <section class="py-16 overflow-hidden">
       <div class="container">
         <div class="flex justify-between items-center">
           <div class="flex gap-8">
@@ -663,20 +749,20 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <footer
+    <!-- <footer
       class="py-16 pb-4 bg-black" data-aos="fade-up"
       data-aos-duration="1000"
       data-aos-delay="400"
     >
       <div class="container">
         <div class="flex flex-col gap-12">
-          <div class="grid grid-cols-1 lg:grid-cols-4 gap-[60px]">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-[60px]"> -->
             <!-- Branding and Description -->
-            <div class="flex flex-col gap-7">
+            <!-- <div class="flex flex-col gap-7"> -->
               <!-- Logo -->
-              <div class="w-full flex items-center gap-1">
+              <!-- <div class="w-full flex items-center gap-1">
                 <img
                   src="public/logo.png"
                   alt="logo"
@@ -685,14 +771,14 @@
                 <h1 class="font-bold text-[24px] lg:text-[22px] text-white">
                   NOVASPORTS
                 </h1>
-              </div>
+              </div> -->
               <!-- Description -->
-              <p class="text-gray-100 font-medium leading-7 sm:w-1/2 lg:w-full">
+              <!-- <p class="text-gray-100 font-medium leading-7 sm:w-1/2 lg:w-full">
                 Level up your game today with expert training and cutting-edge technology.
-              </p>
+              </p> -->
 
               <!-- Social Media & Contact -->
-              <div class="w-full flex gap-4">
+              <!-- <div class="w-full flex gap-4">
                 <div class="p-2 rounded-[50%] bg-white flex justify-center items-center">
                   <box-icon name='envelope' type='solid' class="w-8 h-8"></box-icon>
                 </div>
@@ -707,10 +793,10 @@
                 </div>
                 
               </div>
-            </div>
+            </div> -->
 
             <!-- Product Section -->
-            <div class="flex flex-col gap-7">
+            <!-- <div class="flex flex-col gap-7">
               <h3 class="text-white font-bold text-[18px]">Products</h3>
               <ul class="flex flex-col gap-4">
                 <li>
@@ -749,10 +835,10 @@
                   >
                 </li>
               </ul>
-            </div>
+            </div> -->
 
             <!-- Resources Section -->
-            <div class="flex flex-col gap-7">
+            <!-- <div class="flex flex-col gap-7">
               <h3 class="text-white font-bold text-[18px]">Resources</h3>
               <ul class="flex flex-col gap-4">
                 <li>
@@ -791,10 +877,10 @@
                   >
                 </li>
               </ul>
-            </div>
+            </div> -->
 
             <!-- Company Section -->
-            <div class="flex flex-col gap-7">
+            <!-- <div class="flex flex-col gap-7">
               <h3 class="text-white font-bold text-[18px]">Company</h3>
               <ul class="flex flex-col gap-4">
                 <li>
@@ -834,10 +920,10 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
           <!-- Copyright -->
-          <div class="w-full">
+          <!-- <div class="w-full">
             <p class="font-medium text-gray-100 text-center">
               All Rights Reserved • Copyright Novasports by Angelo 2024
             </p>
@@ -846,13 +932,14 @@
       </div>
     </footer>
 
-    <script src="/public/js/script.js"></script>
+    <script src="/public/js/script.js"></script> -->
 
     <!-- Box Icon -->
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./src/script/main.js"></script>
     <script>
       AOS.init();
     </script>

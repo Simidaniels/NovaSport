@@ -1,0 +1,238 @@
+/* *, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
+I'm not using TAILWINGCSS.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.nav-container .mobile-nav {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+/*BIGINNING NAVBAR STYLES AND RESPONSIVENESS */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 12vh;
+  z-index: 9999;
+  transition: 0.3s ease-in-out;
+}
+header.aos-init.aos-animate.hidden {
+  transform: translateY(-100%);
+}
+header .container .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin: 0 72px;
+}
+/* FOR THE LOGO */
+header .container .content .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+header .container .content .logo img {
+  width: 5vw;
+}
+header .container .content .logo a {
+  font: bold 20px "Work Sans", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+/* NAVBAR CONTENTS HIDDEN FOR MOBILE VIEW */
+header .container .content .mobile-nav {
+  display: none;
+}
+header .container .content .btn-menu {
+  display: none; 
+}
+/* NAVBAR CONTEXT */
+header .container .content nav {
+  border-radius: 20px;
+  padding: 12px 6px;
+}
+header .container .content nav a {
+  color: #fff;
+  text-decoration: none;
+  font: bold 20px "Work Sans", sans-serif;
+  padding: 10px;
+}
+header .container .content nav a:hover {
+  color: rgb(145, 145, 145);
+  transition: .3s ease;
+}
+/* NAVBAR BUTTON */
+header .container .content .extra-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+header .container .content .extra-nav .join-membership {
+  padding: 10px 28px;
+  background: none;
+  color: #fff;
+  font: bold 18px "roboto", sans-serif;
+  border: 1px solid #fff;
+  border-radius: 25px;
+}
+header .container .content .extra-nav .join-membership:hover {
+  background: #fff;
+  color: #000;
+  transition: .2s linear;
+}
+
+
+
+
+
+
+
+
+

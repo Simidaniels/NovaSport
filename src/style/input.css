@@ -1,7 +1,9 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
+@tailwind utilities; */
+* {
+  margin: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -68,7 +70,7 @@ header.aos-init.aos-animate.hidden {
 }
 
 #membership {
-  background: url("../public/bg.jpeg");
+  background: url("../lib/bg.jpeg");
   background-size: cover;
   overflowX: hidden;
 }
