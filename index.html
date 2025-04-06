@@ -99,34 +99,33 @@
 
 
 
-    <section
-      id="hero"
-      class="relative flex justify-center items-center min-h-screen backdrop-brightness-50 overflow-hidden"
-    >
-      <div
-        class="absolute inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:48px_48px]"
-      ></div>
-      <div class="container">
-        <div class="flex flex-col justify-center items-center h-screen">
+    <section class="hero-section" id="hero">
+      <div class=""></div>
+      <div class="hero-container">
+        <div class="hero-wrapper">
           <img
             src="./lib/hand.png"
             alt="hand"
-            class="h-[65%] absolute -bottom-[5%] left-[35%] z-10"
+            class="handy"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
           />
+
           <img
             src="./lib/ball.png"
             alt="ball"
-            class="absolute top-[15%] left-[41%] w-[20%] z-10"
+            class="bally"
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-delay="400"
           />
-          <div class="flex items-center justify-between w-full">
+        </div>
+          
+
+          <div class="hero-context-wrapper">
             <h1
-              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              class="hero-txt"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-delay="400"
@@ -134,7 +133,7 @@
               NOVA
             </h1>
             <h1
-              class="text-[10rem] text-gray-300 font-bitter font-bold cursor-default"
+              class="hero-txt"
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-delay="400"
@@ -142,12 +141,12 @@
               SPORTS
             </h1>
           </div>
-          <div
-            class="z-50 absolute bottom-12 left-[49%] flex flex-col items-center justify-center"
-          >
+
+
+          <div>        
             <box-icon
               name="mouse"
-              class="w-8 h-8 fill-white animate-bounce"
+              class=""
             ></box-icon>
             <p>Scroll Down</p>
           </div>

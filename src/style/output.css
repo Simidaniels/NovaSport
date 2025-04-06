@@ -225,7 +225,7 @@ header .container .content .extra-nav .join-membership {
 header .container .content .extra-nav .join-membership:hover {
   background: #fff;
   color: #000;
-  transition: .2s linear;
+  transition: .2s linear; 
 }
 
 
@@ -236,3 +236,43 @@ header .container .content .extra-nav .join-membership:hover {
 
 
 
+
+
+.hero-section .hero-container img {
+  width: 20vw;
+}
+
+.hero-section .hero-container .hero-wrapper .handy {
+  position: absolute;
+  bottom: -5%;
+  left: 35%;
+  z-index: 10;
+}
+
+.hero-section .hero-container .hero-wrapper .bally {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  z-index: 10;
+}
+
+
+
+
+
+
+.hero-section .hero-container .hero-context-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh; /* Ensures full viewport height */
+  width: 100vw; /* Ensures full viewport width */
+  margin: 0; /* Removes default body margin */
+
+}
+.hero-section .hero-container .hero-context-wrapper h1 {
+  font-size: 10rem;
+  color: rgba(123, 123, 123, 0.295);
+  cursor: default;
+  
+}
