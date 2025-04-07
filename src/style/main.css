@@ -171,7 +171,7 @@ header .container .content {
   padding: 0 16px;
   margin: 0 72px;
 }
-/* FOR THE LOGO */
+/* FOR THE NAV, LOGO */
 header .container .content .logo {
   display: flex;
   justify-content: center;
@@ -235,44 +235,135 @@ header .container .content .extra-nav .join-membership:hover {
 
 
 
+/* .to-top {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 8px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  fill: #fff;
+  transform: scale(0);
+  z-index: 99;
+  transition: all 0.2s linear;
+}
+.to-top:hover {
+  background-color: #1F51FF25;
+  fill: #fff;
+  transition: all 0.2s linear;
+}
+.to-top.active {
+  transform: scale(1);
+  transition: all 0.2s linear;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .hero-section .hero-container img {
   width: 20vw;
 }
-
 .hero-section .hero-container .hero-wrapper .handy {
   position: absolute;
   bottom: -5%;
   left: 35%;
   z-index: 10;
 }
-
 .hero-section .hero-container .hero-wrapper .bally {
   position: absolute;
   top: 15%;
   left: 40%;
   z-index: 10;
 }
-
-
-
-
-
-
 .hero-section .hero-container .hero-context-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100vh; /* Ensures full viewport height */
   width: 100vw; /* Ensures full viewport width */
   margin: 0; /* Removes default body margin */
 
 }
 .hero-section .hero-container .hero-context-wrapper h1 {
-  font-size: 10rem;
+  font-size: 11rem;
+  font-family: cursive;
   color: rgba(123, 123, 123, 0.295);
   cursor: default;
-  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .supportive-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 100vh; */
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
+
+
+
+section .supportive-wrapper .stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.centered {
+    /* your content styles here */
 }

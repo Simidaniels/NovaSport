@@ -1,0 +1,231 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* * {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", serif;
+  background-color: #060606;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+header.aos-init.aos-animate.hidden {
+  transform: translateY(-100%);
+}
+
+.to-top {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  fill: #fff;
+  transform: scale(0);
+  z-index: 99;
+  transition: all .2s linear;
+}
+
+.to-top:hover {
+  background-color: #fff;
+  fill: #060606;
+  transition: all .2s linear;
+}
+
+.to-top.active {
+  transform: scale(1);
+  transition: all .2s linear;
+}
+
+  
+.text-stroke {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+}
+
+.gradient-bg {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+#membership {
+  background: url("../lib/bg.jpeg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#membership::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 80%, #060606);
+  z-index: 10;
+}
+
+#membership::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, transparent 80%, #060606);
+  z-index: 10;
+} */
+
+
+@media (max-width: 580px) {
+/* MOBILE RESPONSIVENESS FOR THE NAVIGATION EMBEDED IN A HAMBURGER MENU */
+  header .container .content {
+    padding: 0 10px;
+    margin: 0 15px;
+  }
+  header .container .content .logo img {
+    width: 8vw;
+  }
+  header .container .content .logo a {
+    font: bold 20px "Work Sans", sans-serif;
+    text-decoration: none;
+    color: #fff;
+  }
+  header .container .content .extra-nav .btn-menu {
+    background: transparent;
+    border: none;
+    display: inline;
+  }
+  header .container .content .extra-nav .btn-menu .icon {
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+  }
+  header .container .content nav {
+    display: none;
+  }
+  header .container .content .extra-nav .join-membership {
+    display: none;
+  }
+/* OPENING HAMBURGER NAV */
+  header .container .content .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    transition: transform 0.2s linear;
+    font: bold 16px "Work Sans", sans-serif;
+  }
+  header .container .content .mobile-nav.active {
+    transform: translateX(0);
+    transition: .4s linear;
+  }
+/* CLOSING HAMBURGER NAV */
+  header .container .content .mobile-nav .close-mobile-nav {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 15px;
+    background: transparent;
+    border: none;
+  }
+/* HAMBEURGER CLOSER DISPLAY */
+  header .container .content .mobile-nav .close-mobile-nav .icon {
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+  }
+  /* MENU LIST DISPLAY */
+  header .container .content .mobile-nav .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+/* REMOVING MENU LIST DEFAULT LINK */
+  header .container .content .mobile-nav a {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: none;
+  }
+  header .container .content .mobile-nav a:hover {
+      color: rgb(161, 161, 161);
+  }
+  header .container .content .mobile-nav a:active {
+      color: rgb(161, 161, 161);
+  }
+/* RESPONSIVENESS BUTTON DISPLAY */
+  header .container .content .nav button {
+    display: block;
+    background: rgba(237, 225, 225, 0.16);
+    padding: 6px;
+    border: 1px solid #fff;
+    /* border-radius: 25px; */
+    color: #fff;
+    font-weight: 500;
+  }
+  header .container .content .nav button:hover {
+    /* background-color: rgb(35, 32, 32); */
+    transition: .2s linear;
+  }
+  header .container .content .nav button:active {
+    background-color: rgb(83, 83, 83);
+    transition: .1s linear;
+  }
+  .hero-section .hero-container {
+    height: 100vh;
+  }
+  .hero-section .hero-container img {
+    width: 60vw;
+  }
+  .hero-section .hero-container .hero-wrapper .handy {
+    position: absolute;
+    bottom: -5%;
+    left: 15%;
+  }
+  .hero-section .hero-container .hero-wrapper .bally {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+  .hero-section .hero-container .hero-context-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    margin: -10% 0;
+  }
+  .hero-section .hero-container .hero-context-wrapper h1 {
+    font-size: 6rem;
+  }
+}
