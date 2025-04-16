@@ -120,7 +120,7 @@ I'm not using TAILWINGCSS.
 body {
   background-color: #000;
   color: #fff;
-  max-width: 100%;
+  /* max-width: 100%; */
   font-family: 'Roboto', sans-serif;
 
 }
@@ -638,6 +638,273 @@ section .price-container .price-bx .price-blox .price-card-content .price-info .
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .contact-container .contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10em 40px;
+} 
+section .contact-container .contact-wrapper .info-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section .contact-container .contact-wrapper .contct-adrs{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* padding-left: 30px; */
+}
+section .contact-container .contact-wrapper .contct-adrs .icn-wrap {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 6px;
+}
+section .contact-container .contact-wrapper .contct-adrs .cntct-icn {
+  width: 2em;
+  height: 2em;
+  /* margin: 10px; */
+  box-sizing: border-box;
+}
+
+
+section .contact-container .contact-wrapper .contct-adrs .h1 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+
+section .contact-container .contact-wrapper .contct-adrs .tx {
+  font-size: 14px;
+  color: #aeadad;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .contact-container .contact-wrapper .ipt-adrs  {
+  background: #6b6b6b3f;
+  padding: 12px;
+  border-radius: 50px;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .contact-container .contact-wrapper .ipt-adrs input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 16vw;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 16px;
+}
+
+section .contact-container .contact-wrapper .ipt-adrs input::placeholder {
+  color: #8f8f8f;
+  text-transform: none;
+}
+
+
+section .contact-container .contact-wrapper .ipt-adrs .sbmt-btn {
+  border: none;
+  outline: none;
+  background: #b6b6b6;
+  padding: 10px;
+  border-radius: 50px;
+  width: 6vw;
+  font-weight: 800;
+}
+section .contact-container .contact-wrapper .ipt-adrs .sbmt-btn:hover {
+  color: #fff;
+  background: #000;
+  transition: .2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .ftr-container .ftr-wrapper {
+  margin: 40px 40px;
+}
+footer .ftr-container .ftr-wrapper .ftr-desc {
+  display: flex;
+  justify-content: space-between;
+  /* width: 50vw; */
+  /* gap: 6vw; */
+}
+
+footer .ftr-container .ftr-wrapper .ftr-desc .ftr-brnd .ftr-logo .lgo {
+  width: 4vw;
+}
+footer .ftr-container .ftr-wrapper .ftr-desc .ftr-brnd .ftr-logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+footer .ftr-container .ftr-wrapper .ftr-desc .ftr-brnd .ftr-logo .ftr-h1{
+  font: bold 20px "Work Sans", sans-serif;
+}
+
+footer .ftr-container .ftr-wrapper .ftr-desc .ftr-brnd .ftr-social-wrap {
+  display: flex;
+  gap: 35px;
+  padding: 20px 0;
+}
+footer .ftr-container .ftr-wrapper .ftr-desc .ftr-brnd .ftr-p {
+  width: 20em;
+}
+
+footer .ftr-container .ftr-wrapper .ftr-desc .ftr-brnd .ftr-social-wrap .scl-icn {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+footer .ftr-container .ftr-wrapper .ftr-desc .pdct-wrapper .pdct-hd {
+  padding: 20px 0;
+  font-size: 22px;
+}
+
+
+footer .ftr-container .ftr-wrapper .ftr-desc .pdct-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .ftr-container .ftr-wrapper .ftr-desc .pdct-wrapper .pdct-lst {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+
+footer .ftr-container .ftr-wrapper .ftr-desc .pdct-wrapper .pdct-lst li a{
+  text-decoration: none;
+  color: #878787;
+}
+footer .ftr-container .ftr-wrapper .ftr-desc .pdct-wrapper .pdct-lst li a:hover {
+  text-decoration: underline;
+  color: #fff;
+  transition: .2s ease;
+}
+
+
+footer .ftr-container .ftr-wrapper .ftr-rsv .ftr-rsvp {
+  text-align: center;
+  padding: 4em 0;
+}
 
 
 

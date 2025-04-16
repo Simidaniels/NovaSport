@@ -326,4 +326,234 @@ header.aos-init.aos-animate.hidden {
     }
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+       
+        section .price-container .price-wrapper .hd {
+          font-size: 1.5em;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          text-align: center;
+        }
+        
+    
+        section .price-container .price-bx {
+          display: flex;
+          flex-direction: column;
+          gap: 3em;
+        }
+    
+    
+    
+        section .price-container .price-bx .tpc-hdn .sub-hdn {
+          padding: 10px 0;
+          font-size: 16px;
+        }
+    
+        section .price-container .price-bx .tpc-hdn .tpc-cntxt {
+          line-height: normal;
+          font-size: 12px;
+        }
+    
+        section .price-container .price-bx .chpln {
+          margin-bottom: 15px;
+        } 
+    
+    
+        section .price-container .price-bx .price-blox {
+       
+          padding: 10px 10px;
+          height: 100vh;
+          /* IM COMING BACK TO YOU */
+          
+        }
+     
+    
+      
+         
+    
+        section .price-container .price-bx .price-icn img {
+          width: 12vw;
+        }
+       
+        section .price-container .price-bx .price-icn .money {
+          font-size: 15px;
+        }
+         
+        section .price-container .price-bx .price-blox .price-info {
+          display: flex;
+          flex-direction: column;
+          padding-top: 20px;
+          line-height: 3em;
+        }
+        
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .contact-container .contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  /* justify-content: space-between; */
+  margin: 5em 40px;
+}
+
+section .contact-container .contact-wrapper .info-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px; 
+}
+
+section .contact-container .contact-wrapper .contct-adrs .icn-wrap {
+  padding: 4px;
+}
+
+
+
+
+section .contact-container .contact-wrapper .contct-adrs .cntct-icn {
+  width: 1.5em;
+  height: 1.5em;
+
+}
+
+
+section .contact-container .contact-wrapper .contct-adrs .h1 {
+  font-size: 16px;
+}
+
+
+section .contact-container .contact-wrapper .contct-adrs .tx {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .contact-container .contact-wrapper .ipt-adrs {
+  padding: 12px;
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+}
+
+section .contact-container .contact-wrapper .ipt-adrs input {
+  /* border: none; */
+  /* outline: none; */
+  /* background: none; */
+  /* color: #fff; */
+  /* text-transform: lowercase; */
+  /* font-size: 16px; */
+  width: auto;
+}
+
+
+
+
+section .contact-container .contact-wrapper .ipt-adrs .sbmt-btn {
+  padding: 10px;
+  border-radius: 50px;
+  width: auto;
+} 
+
 }
