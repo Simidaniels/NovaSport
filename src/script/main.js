@@ -32,3 +32,5 @@ closeMobileNavBtn.addEventListener("click", () => {
   const mobileNav = document.querySelector(".mobile-nav");
   mobileNav.classList.remove("active");
 });
+
+// JS for the Open and Close navigation including the to-top button
